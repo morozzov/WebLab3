@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lab3</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script type="text/javascript" src="script.js"></script>
+    <style>
+        .smallText{
+            font-size:13px;
+        }
+    </style>
+</head>
+
+<body> 
+    <main>  
+        <div>
+            <div class="card " style="width: 30rem; margin: 5rem auto auto auto">
+                <form class="card-body bg-light">
+                    <input class="form-control mb-3" type="text" placeholder="Number of card" aria-label="default input example">
+                    <div class="form-row mb-2">
+                        <div class="form-group col-md-3 pr-4">
+                          <label for="inputMonth" class="smallText">Month</label>
+                          <input type="text" class="form-control" id="inputMonth" placeholder="MM">
+                        </div>
+                        <div class="form-group col-md-3 pr-4">
+                          <label for="inputYear" class="smallText">Year</label>
+                          <input type="text" class="form-control" id="inputYear" placeholder="YY">
+                        </div>
+                        <div class="form-group col-md-3 pr-4">
+                            <label for="inputCVV" class="smallText">CVV</label>
+                            <input type="text" class="form-control" id="inputCVV" placeholder="000">
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-3">
+                            <img src="img/card.png" class="img-rounded" style="padding-top:25px;"/>
+                        </div>
+                    </div>
+                    <input class="form-control mb-3" type="text" placeholder="Name as on card" aria-label="default input example">
+                    <div class="form-check form-check-inline mb-3">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">Save all input data for quick payment <a href="">more?</a></label>
+                      </div>
+                    <div class="row justify-content-between mx-2 mr-2">
+                        <a href="#" class="btn btn-danger">CANCEL</a>
+                        <a href="#" class="btn btn-warning px-3 pr-3" style="color: white;">PAY</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
